@@ -74,3 +74,90 @@ rm -rf %{buildroot}
 %files -f %{name}.filelist
 %defattr(-,root, root)
 %doc *-asterisk-core-*-%{version}
+
+
+%changelog
+* Tue Jul 12 2011 Lonyai Gergely <aleph@mandriva.org> 1.4.22-1mdv2011
++ Revision: 689669
+- 1.4.22
+
+* Fri Jun 03 2011 Lonyai Gergely <aleph@mandriva.org> 1.4.21-1
++ Revision: 682572
+- 1.4.21
+
+* Fri Oct 22 2010 Lonyai Gergely <aleph@mandriva.org> 1.4.20-1mdv2011.0
++ Revision: 587278
+- 1.4.20
+
+* Sat Jul 10 2010 Lonyai Gergely <aleph@mandriva.org> 1.4.19-1mdv2011.0
++ Revision: 550212
+- 1.4.19
+- Add download comment
+  Add version to the Provides
+
+* Wed Jan 06 2010 Lonyai Gergely <aleph@mandriva.org> 1.4.17-1mdv2010.1
++ Revision: 486630
+- 1.4.17 files
+- 1.4.17
+
+* Fri Oct 09 2009 Lonyai Gergely <aleph@mandriva.org> 1.4.16-1mdv2010.1
++ Revision: 456274
+- 1.4.16
+
+* Thu Aug 13 2009 Lonyai Gergely <aleph@mandriva.org> 1.4.15-2mdv2010.0
++ Revision: 416104
+- mv all files the en/ subdirectory
+
+* Mon Mar 30 2009 Lonyai Gergely <aleph@mandriva.org> 1.4.15-1mdv2009.1
++ Revision: 362478
+- Update: 1.4.15
+
+* Tue Mar 17 2009 Lonyai Gergely <aleph@mandriva.org> 1.4.14-2mdv2009.1
++ Revision: 356990
+- sterisk-core-sounds-en-1.4.14-2mdv2009.1
+
+* Thu Feb 19 2009 Lonyai Gergely <aleph@mandriva.org> 1.4.14-1mdv2009.1
++ Revision: 342998
+- asterisk-core-sounds-en-1.4.14-1mdv2009.1
+
+* Thu Dec 11 2008 Oden Eriksson <oeriksson@mandriva.com> 1.4.13-2mdv2009.1
++ Revision: 313458
+- adjust path for asterisk 1.6.x
+
+* Tue Oct 14 2008 Oden Eriksson <oeriksson@mandriva.com> 1.4.13-1mdv2009.1
++ Revision: 293636
+- 1.4.13
+
+* Thu Aug 14 2008 Oden Eriksson <oeriksson@mandriva.com> 1.4.12-1mdv2009.0
++ Revision: 271935
+- 1.4.12
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 1.4.11-2mdv2009.0
++ Revision: 266187
+- rebuild early 2009.0 package (before pixel changes)
+
+  + Pixel <pixel@mandriva.com>
+    - adapt to %%_localstatedir now being /var instead of /var/lib (#22312)
+
+* Wed Apr 09 2008 Oden Eriksson <oeriksson@mandriva.com> 1.4.11-1mdv2009.0
++ Revision: 192508
+- 1.4.11
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Sep 10 2007 Oden Eriksson <oeriksson@mandriva.com> 1.4.5-2mdv2008.0
++ Revision: 84043
+- rebuild
+
+
+* Thu Feb 15 2007 Oden Eriksson <oeriksson@mandriva.com> 1.4.5-1mdv2007.0
++ Revision: 121441
+- Import asterisk-core-sounds-en
+
+* Thu Feb 15 2007 Oden Eriksson <oeriksson@mandriva.com> 1.4.5-1mdv2007.1
+- initial Mandriva package
+
